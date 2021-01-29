@@ -9,5 +9,5 @@ def test(request):
     return render(request, "test.html")
 
 
-def test3(request):
-    return HttpResponse("текшеруу")
+def check(request):
+    return HttpResponse("Tекшеруу")
